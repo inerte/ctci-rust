@@ -1,0 +1,4 @@
+[package]
+name = "ctci-rust"
+version = "0.1.0"
+authors = ["Julio Nobrega Netto <inerte@gmail.com>"]
