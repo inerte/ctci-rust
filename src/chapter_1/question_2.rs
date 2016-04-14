@@ -9,6 +9,10 @@ fn is_permutation(string_a: &str, string_b: &str, prefix: String) -> bool {
         println!("prefix len 0 {}", prefix);
     } else {
         for i in 0..len {
+            // Even tough .chars builds a list from the string,
+            // .nth on it idiomatic Rust. As of 04/13, char_at
+            // https://doc.rust-lang.org/std/string/struct.String.html#method.char_at
+            // is unstable
             let char_at = string_a.chars().nth(i).unwrap();
 
             let rem = string_a[0..i].to_string() + &string_a[i + 1..len];
