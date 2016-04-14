@@ -2,13 +2,8 @@ fn is_permutation(string_a: &str, string_b: &str, prefix: String) -> bool {
     let len = string_a.len();
 
     if string_b == string_a || string_b == prefix {
-        println!("found {:?}", prefix);
         return true;
     }
-
-    println!("string_a {:?}", string_a);
-    println!("string_b {:?}", string_b);
-    println!("prefix {:?}", prefix);
 
     if len == 0 {
         println!("prefix len 0 {}", prefix);
