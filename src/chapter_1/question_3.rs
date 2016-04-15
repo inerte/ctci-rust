@@ -1,4 +1,4 @@
-pub fn replace_spaces(string: &str, size: usize) -> String {
+fn replace_spaces(string: &str, size: usize) -> String {
     // First pass
     // let words: Vec<&str> = string.trim().split(" ").collect();
     // return words.join("%20");
