@@ -17,8 +17,6 @@ pub fn is_permutation_of_palindrome(string: &str) -> bool {
     let string = string.to_lowercase();
     let char_frequency = char_frequency(string);
 
-    println!("char_frequency {:?}", char_frequency);
-
     let mut odd_found = false;
 
     for (_, i) in char_frequency {
