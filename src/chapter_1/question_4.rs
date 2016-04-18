@@ -28,8 +28,8 @@ pub fn is_permutation_of_palindrome(string: &str) -> bool {
 
     let mut odd_found = false;
 
-    for (_, i) in char_frequency {
-        if i % 2 == 1 {
+    for frequency in char_frequency.values() {
+        if frequency % 2 == 1 {
             if odd_found {
                 return false;
             }
