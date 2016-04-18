@@ -56,7 +56,6 @@ fn a_palindrome_is_a_permutation_of_palindrome() {
 }
 
 #[test]
-#[should_panic]
 fn my_name_is_not_a_permutation_of_palindrome() {
-    assert!(is_permutation_of_palindrome("Julio"));
+    assert_eq!(is_permutation_of_palindrome("Julio"), false);
 }
