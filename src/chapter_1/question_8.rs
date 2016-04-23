@@ -31,8 +31,7 @@ fn zero_matrix(matrix: Vec<Vec<u32>>) -> Vec<Vec<u32>> {
         }
 
         if found_zero_in_row {
-            zeroed_matrix.push(vec![0; row.len()]);
-            zeroed_matrix.swap_remove(i);
+            zeroed_matrix[i] = vec![0; row.len()];
         }
     }
 
