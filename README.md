@@ -26,3 +26,7 @@ but it's just one loop otherwise. The book solutions loop through the matrix,
 and then on the length of column/row many times. If you imagine a very large row,
 but with only a few zeroes, my solution would be more efficient (but using more
 space).
+
+### 1.9
+
+I could only solve this after reading the hints
