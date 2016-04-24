@@ -1,12 +1,3 @@
-// I confess I "cheated" this problem. I couldn't figure out what
-// was being asked, so I went to the answer to understand the problem,
-// read it twice, and of course couldn't get the solution out of my
-// mind.
-// After solving with the first solution, I realized it's one of those
-// problems that greatly benefit from random knowledge about a shortcut.
-// If you didn't know a palindrome couldn't have more than one odd
-// character frequency, you would try to brute-force by computing all
-// permutations. Still, there you go:
 use std::collections::HashMap;
 
 fn char_frequency(string: String) -> HashMap<char, usize> {
