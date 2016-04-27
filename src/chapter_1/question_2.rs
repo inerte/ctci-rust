@@ -6,7 +6,7 @@ fn is_permutation(string_a: &str, string_b: &str, prefix: String) -> bool {
     }
 
     if len == 0 {
-        println!("prefix len 0 {}", prefix);
+        // println!("prefix len 0 {}", prefix);
     } else {
         for i in 0..len {
             // Even tough .chars builds a list from the string,
