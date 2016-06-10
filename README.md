@@ -20,7 +20,7 @@ try to brute-force by computing all permutations.
 
 ### 1.8
 
-My solution differs uses a different approach than the 2 from the book. My is
+My solution uses a different approach than the 2 from the book. Mine is
 probably better if there aren't many zeroes (since it loops on previous rows),
 but it's just one loop otherwise. The book solutions loop through the matrix,
 and then on the length of column/row many times. If you imagine a very large row,
